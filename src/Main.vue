@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="w-fit mx-auto relative">
-                    <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-20 translate-y-10"/>
+                    <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-10 2xl:translate-x-20 translate-y-10"/>
 
                     <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
                         <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
@@ -135,7 +135,7 @@
                         </div>
                     </ExperienceElement>
 
-                    <SatelliteDish width="175" height="175" color="white" class="-rotate-90 absolute right-24 hidden xl:block"/>
+                    <SatelliteDish width="175" height="175" color="white" class="-rotate-90 absolute right-16 2xl:right-24 hidden xl:block"/>
                 </div>
             </div>
         </div>
