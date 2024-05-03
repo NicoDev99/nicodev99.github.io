@@ -51,9 +51,9 @@
 
                         <div class="md:flex md:justify-between md:items-center mt-8">
                             <div class="flex gap-x-6 justify-center md:justify-normal">
-                                <a href="/" target="_blank" class="hover:-translate-y-1 duration-300">
+                                <!-- <a href="/" target="_blank" class="hover:-translate-y-1 duration-300">
                                     <InstagramIcon color="white" />
-                                </a>
+                                </a> -->
 
                                 <a href="https://www.linkedin.com/in/erwan-nicolas-79729029a/" target="_blank" class="hover:-translate-y-1 duration-300">
                                     <LinkedinIcon color="white" />
