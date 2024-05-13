@@ -2,7 +2,7 @@
     <div class="flex items-center gap-x-4">
 
         <div data-aos="fade-left">
-            <div class="flex items-center relative">
+            <div class="hidden md:flex items-center relative">
                 <div class="blur-[2px] order-1">
                     <div class="w-5 h-5 bg-white star"></div>
                 </div>
@@ -13,7 +13,7 @@
         <slot></slot>
 
         <div data-aos="fade-right">
-            <div class="flex items-center relative">
+            <div class="hidden md:flex items-center relative">
                 <div class="blur-[2px] order-2">
                     <div class="w-5 h-5 bg-white star"></div>
                 </div>
