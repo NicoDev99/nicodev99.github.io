@@ -3,8 +3,6 @@
 
         <Nav @phoneDisplay="togglePhoneNav"/>
 
-        <a href="#skills" class="text-md font-normal">// Ok</a>
-
         <div class="block text-center pb-44">
             <ArrowIcon color="white" class="block m-auto mt-24 animate-bounce" />
 
@@ -170,7 +168,7 @@
                 <ProgressBar color="#A259FF" progress="80" name="Figma" class="mt-16" />
             </div>
 
-            <div class="flex items-center mt-24">
+            <div class="flex items-center mt-24 ml-0 md:ml-8">
                 <Satellite width="125" height="125" color="rgba(255, 255, 255, 0.5)" class="-rotate-[135deg] hidden md:block"/>
                 <p class="text-white/50 font-RobotoFlex text-sm lg:text-base text-center md:text-left">Mes compétences sont basées sur mon expérience professionnelle et sur les différents projets sur lesquels j’ai pu travailler</p>
             </div>

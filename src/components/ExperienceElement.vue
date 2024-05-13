@@ -9,7 +9,7 @@
         </div>
 
         <!-- Triangle -->
-        <div class="inline-block w-0 h-0 border-y-[20px]  border-solid border-y-transparent border-white blur-sm hidden xl:block" :class="this.orientation == 'left' ? 'border-l-[40px]' : 'border-r-[40px]'"></div>
+        <div class="w-0 h-0 border-y-[20px] border-solid border-y-transparent border-white blur-sm hidden xl:block" :class="this.orientation == 'left' ? 'border-l-[40px]' : 'border-r-[40px]'"></div>
 
         <!-- Text -->
         <div>
