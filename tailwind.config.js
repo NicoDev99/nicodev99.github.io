@@ -1,13 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./app.vue",
-    "./error.vue",
-  ],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     screens: {
       'xs': '400px',
@@ -77,9 +70,13 @@ export default {
       "VollkornSC" : ["Vollkorn SC", "sans-serif"],
       "Trykker" : ["Trykker", "sans-serif"],
       "RedHatText" : ["Red Hat Text", "sans-serif"],
-      "Yaldevi": ["Yaldevi", "sans-serif"]
+      "RedRose" : ["Red Rose", "sans-serif"],
+      "GoblinOne" : ["Goblin One", "sans-serif"]
     }
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animation-delay"), // Plugin found here : https://www.npmjs.com/package/tailwindcss-animation-delay
+  ],
+
 }
 
