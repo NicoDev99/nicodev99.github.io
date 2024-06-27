@@ -10,7 +10,7 @@
                 <h1 class="font-Habibi text-white text-2xl sm:text-4xl uppercase translate-y-6 animate-[transformBottomTop_1s_ease_forwards]">Erwan Nicolas</h1>
             </TitleSide>
 
-            <h2 class="text-white font-Gruppo mt-6 text-xl sm:text-3xl translate-y-6 animate-[transformBottomTop_1s_ease_forwards]">Développeur Web Full-Stack</h2>
+            <h2 class="text-white font-Gruppo mt-6 text-xl sm:text-3xl translate-y-6 animate-[transformBottomTop_1s_ease_forwards]">DevOps</h2>
 
             <Separator class="block mx-auto mt-12 translate-y-6 animate-[transformBottomTop_1s_ease_forwards]"/>
         </div>
@@ -40,7 +40,7 @@
 
                     <div class="mx-0 sm:mx-10 lg:mx-40 xl:mx-0 mt-12 xl:mt-0">
                         <h1 class="font-ZenOldMincho text-4xl 2xl:text-5xl text-white text-center xl:text-left">Erwan Nicolas</h1>
-                        <h2 class="text-white font-Gruppo mt-3 text-xl 2xl:text-2xl text-center xl:text-left">Développeur Web Full-Stack</h2>
+                        <h2 class="text-white font-Gruppo mt-3 text-xl 2xl:text-2xl text-center xl:text-left">DevOps</h2>
 
                         <p class="font-Roboto text-white text-justify text-xs md:text-sm mt-7">
                             Etudiant en alternance en BUT Informatique à l'Université Côte d'Azur, je me distingue par ma passion polyvalente pour le développement, les nouvelles technologies, l'entrepreneuriat et la gendarmerie.<br /><br />
@@ -73,69 +73,128 @@
             
             <!-- My course -->
             <div class="mt-32">
-                <div>
-                    <TitleSide>
-                        <h1 class="font-ZenOldMincho text-white text-3xl">Mon parcours</h1>
-                    </TitleSide>
 
-                    <h2 class="font-Genos text-[#767478] max-w-xl mx-auto text-center mt-6 text-xs lg:text-lg">Passionné par le numérique depuis toujours, mon parcours témoigne de cette passion
-                        pour la technologie, une histoire qui ne cesse de s'enrichir.</h2>
-                </div>
+              <!-- Experiences -->
+              <TitleSide class="mb-8">
+                <h1 class="font-ZenOldMincho text-white text-3xl">Expérience Pro</h1>
+              </TitleSide>
 
-                <div class="w-fit mx-auto relative">
-                    <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-10 2xl:translate-x-20 translate-y-10"/>
+              <div class="w-fit mx-auto relative">
+                <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-20 translate-y-10"/>
 
-                    <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
-                        <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
-                            <div class="flex justify-between items-center mb-3">
-                                <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Fondateur - CEO</h1>
-                                <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">juin 2023 - Aujourd’hui</p>
-                            </div>
-                            <p class="text-justify font-Roboto text-sm lg:text-base">Après avoir passé plusieurs années à travailler en tant qu'indépendant, j'ai pris la décision de lancer ma propre entreprise. 
-                                Mon objectif est de donner vie à mes projets tout en collaborant avec d'autres entreprises, en leur proposant mes services pour 
-                                la conception et le développement de solutions informatiques sur mesure.</p>
-                        </div>
-                    </ExperienceElement>
+                <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Breaking Hardware</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Teach Lead</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">mai 2024 - Aujourd’hui</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      J'ai rejoint Breaking Hardware en tant que Tech Lead spécialisé dans le développement web. Mes missions incluent la validation
+                      du code de mon équipe et le développement de la structure web de l'entreprise. Je partage également mes connaissances en formant les
+                      plus jeunes développeurs. Enfin, je réalise divers projets pour nos clients, en assurant leur satisfaction grâce à des solutions personnalisées.
+                    </p>
+                  </div>
+                </ExperienceElement>
 
-                    <ExperienceElement number="2" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
-                        <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
-                            <div class="flex justify-between items-center mb-3">
-                                <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Etudes entrepreneurials</h1>
-                                <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">fev. 2024 - Aujourd’hui</p>
-                            </div>
-                            <p class="text-justify font-Roboto text-sm lg:text-base">Dans le cadre du programme PEPITE, j'ai rejoint la formation D2E pour approfondir mes compétences 
-                                dans le domaine de l'entrepreneuriat et de la gestion de projet. Cette formation m'offre l'opportunité d'explorer en profondeur divers aspects 
-                                tels que l'élaboration de plans d'affaires, les interactions avec les investisseurs, les aspects juridiques incluant les différents statuts 
-                                possibles pour les entreprises, ainsi que les études de marché.</p>
-                        </div>
-                    </ExperienceElement>
+                <ExperienceElement number="2" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">NicoDev</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Fondateur CEO</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">juin 2023 - juin 2024</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      Après avoir passé plusieurs années à travailler en tant qu'indépendant, j'ai pris la décision de lancer ma propre entreprise.
+                      Mon objectif était de donner vie à mes projets tout en collaborant avec d'autres entreprises, en leur proposant mes services pour
+                      la conception et le développement de solutions informatiques sur mesure.
+                    </p>
+                  </div>
+                </ExperienceElement>
 
-                    <ExperienceElement number="3" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10 mb-40 xl:mb-0">
-                        <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
-                            <div class="flex justify-between items-center mb-3">
-                                <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Développeur Web Full Stack</h1>
-                                <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">oct. 2022 - Aujourd’hui</p>
-                            </div>
-                            <p class="text-justify font-Roboto text-sm lg:text-base">J'ai rejoint l'équipe d'INOCESS en alternance dans le but de contribuer à la création, la conception, le développement et 
-                                la mise en œuvre d'une solution informatique permettant la visualisation de données sous diverses formes telles que des graphiques, des graphes et des matrices. </p>
-                        </div>
-                    </ExperienceElement>
+                <ExperienceElement number="3" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10 mb-40 xl:mb-0">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">INOCESS</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">DevOps</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">oct. 2022 - Aujourd'hui</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      J'ai rejoint l'équipe d'INOCESS en alternance dans le but de contribuer à la création, la conception, le développement, la mise en production et la maintenance
+                      d'une solution web permettant la visualisation de données sous différentes formes de graphiques. J'ai commencé en tant que développeur full stack
+                      avant de petit à petit m'orienter vers du DevOps.
+                    </p>
+                  </div>
+                </ExperienceElement>
+              </div>
 
-                    <ExperienceElement number="4" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
-                        <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
-                            <div class="flex justify-between items-center mb-3">
-                                <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Etudes Supérieures</h1>
-                                <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">sept. 2022 - Aujourd’hui</p>
-                            </div>
-                            <p class="text-justify font-Roboto text-sm lg:text-base">Après l'obtention de mon baccalauréat, j'ai rejoint le Bachelor Universitaire de Technologie (BUT) à l'IUT de Nice, 
-                                sur le campus de Sophia Antipolis, dans le but d'approfondir mes compétences en informatique. Actuellement en deuxième année de BUT, cette 
-                                formation m'a permis de faire des avancées significatives dans ce domaine aussi vaste que complexe</p>
-                        </div>
-                    </ExperienceElement>
+              <!-- Formations -->
+              <TitleSide class="my-32">
+                <h1 class="font-ZenOldMincho text-white text-3xl">Formations</h1>
+              </TitleSide>
 
-                    <SatelliteDish width="175" height="175" color="white" class="-rotate-90 absolute right-16 2xl:right-24 hidden xl:block"/>
-                </div>
+              <div class="w-fit mx-auto relative">
+
+                <ExperienceElement number="4" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">PEPITE PACA-EST</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Etudes entrepreneuriales</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">fev. 2024 - Aujourd'hui</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      Dans le cadre du programme PEPITE, j'ai rejoint la formation D2E pour approfondir mes compétences
+                      dans le domaine de l'entrepreneuriat et de la gestion de projet. Cette formation m'offre l'opportunité d'explorer en profondeur divers aspects
+                      tels que l'élaboration de plans d'affaires, les interactions avec les investisseurs, les aspects juridiques incluant les différents statuts
+                      possibles pour les entreprises, ainsi que les études de marché.
+                    </p>
+                  </div>
+                </ExperienceElement>
+
+                <ExperienceElement number="5" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10 mb-40 xl:mb-0">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Université Côte d'Azur</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">BUT Informatique</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">sept. 2022 - Aujourd'hui</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      Après l'obtention de mon baccalauréat, j'ai rejoint le Bachelor Universitaire de Technologie (BUT) à l'IUT de Nice,
+                      sur le campus de Sophia Antipolis, dans le but d'approfondir mes compétences en informatique. Actuellement en deuxième année de BUT, cette
+                      formation m'a permis de faire des avancées significatives dans ce domaine aussi vaste que complexe.
+                    </p>
+                  </div>
+                </ExperienceElement>
+
+                <ExperienceElement number="6" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Lycée Saint Exupery</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Baccalauréat</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">sept. 2019 - juin 2022</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      Passionné par les mathématiques et l'informatique, j'ai choisi ces deux spécialités pour mon baccalauréat. En terminale, j'ai également
+                      suivi l'option mathématiques expertes, où j'ai pu m'épanouir pleinement en explorant de nouveaux aspects de cette discipline.
+                    </p>
+                  </div>
+                </ExperienceElement>
+
+                <SatelliteDish width="175" height="175" color="white" class="-rotate-90 absolute right-24 hidden xl:block"/>
             </div>
+        </div>
         </div>
 
 
@@ -151,21 +210,24 @@
             </div>
 
             <div class="md:grid md:grid-cols-2 mx-0 lg:mx-20 2xl:mx-64 md:gap-x-14 lg:gap-x-28 mt-10">
-                <LinearProgressBar firstColor="#F16529" endColor="#2965F1" progress="90" name="HTML / CSS" class="mt-16"/>
-                <ProgressBar color="#8993C1" progress="90" name="PHP" class="mt-16" />
-                <ProgressBar color="#CF649B" progress="70" name="SASS / SCSS" class="mt-16" />
-                <ProgressBar color="#339ADB" progress="80" name="SQL" class="mt-16" />
-                <ProgressBar color="#4DB0B4" progress="90" name="TailWindCSS" class="mt-16" />
-                <LinearProgressBar firstColor="#D10A77" endColor="#9E28F8" progress="50" name="InfluxDB" class="mt-16"/>
-                <ProgressBar color="#FCD329" progress="70" name="JavaScript" class="mt-16" />
-                <LinearProgressBar firstColor="#FE2C21" endColor="#63B586" progress="70" name="Laravel / VueJS" class="mt-16"/>
-                <ProgressBar color="#FE767A" progress="50" name="ChartJS" class="mt-16" />
-                <ProgressBar color="#A3EDBA" progress="50" name="Highcharts" class="mt-16" />
-                <ProgressBar color="#AF1F1F" progress="70" name="Java" class="mt-16" />
-                <LinearProgressBar firstColor="#FFDF58" endColor="#3573A4" progress="70" name="Python" class="mt-16"/>
-                <LinearProgressBar firstColor="#9D68AB" endColor="#5571B5" progress="50" name="Git / GitHub" class="mt-16"/>
-                <LinearProgressBar firstColor="#809DC9" endColor="#B32024" progress="70" name="SVN / Redmine" class="mt-16"/>
-                <ProgressBar color="#A259FF" progress="80" name="Figma" class="mt-16" />
+              <LinearProgressBar firstColor="#F16529" endColor="#2965F1" progress="90" name="HTML / CSS" class="mt-16"/>
+              <ProgressBar color="#8993C1" progress="90" name="PHP" class="mt-16" />
+              <ProgressBar color="#CF649B" progress="70" name="SASS / SCSS" class="mt-16" />
+              <ProgressBar color="#339ADB" progress="80" name="SQL" class="mt-16" />
+              <ProgressBar color="#4DB0B4" progress="90" name="TailWindCSS" class="mt-16" />
+              <LinearProgressBar firstColor="#D10A77" endColor="#9E28F8" progress="50" name="InfluxDB" class="mt-16"/>
+              <ProgressBar color="#FCD329" progress="70" name="JavaScript" class="mt-16" />
+              <ProgressBar color="#FE2C21" progress="70" name="Laravel" class="mt-16"/>
+              <ProgressBar color="#FE767A" progress="50" name="ChartJS" class="mt-16" />
+              <ProgressBar color="#A3EDBA" progress="50" name="Highcharts" class="mt-16" />
+              <ProgressBar color="#AF1F1F" progress="70" name="Java" class="mt-16" />
+              <LinearProgressBar firstColor="#FFDF58" endColor="#3573A4" progress="70" name="Python" class="mt-16"/>
+              <LinearProgressBar firstColor="#9D68AB" endColor="#5571B5" progress="50" name="Git / GitHub" class="mt-16"/>
+              <LinearProgressBar firstColor="#809DC9" endColor="#B32024" progress="70" name="SVN / Redmine" class="mt-16"/>
+              <ProgressBar color="#2A6914" progress="70" name="VueJS / NuxtJS" class="mt-16" />
+              <ProgressBar color="#1A58CF" progress="50" name="TypeScript" class="mt-16" />
+              <ProgressBar color="#2B9DDD" progress="50" name="Docker" class="mt-16" />
+              <ProgressBar color="#A259FF" progress="80" name="Figma" class="mt-16" />
             </div>
 
             <div class="flex items-center mt-24 ml-0 md:ml-8">
