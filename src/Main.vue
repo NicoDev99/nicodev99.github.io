@@ -76,7 +76,7 @@
 
               <!-- Experiences -->
               <TitleSide class="mb-8">
-                <h1 class="font-ZenOldMincho text-white text-3xl">Expérience Pro</h1>
+                <h1 class="font-ZenOldMincho text-white text-3xl">Expériences Pro</h1>
               </TitleSide>
 
               <div class="w-fit mx-auto relative">
