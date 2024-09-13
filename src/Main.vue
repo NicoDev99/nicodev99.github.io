@@ -10,7 +10,7 @@
                 <h1 class="font-Habibi text-white text-2xl sm:text-4xl uppercase translate-y-6 animate-[transformBottomTop_1s_ease_forwards]">Erwan Nicolas</h1>
             </TitleSide>
 
-            <h2 class="text-white font-Gruppo mt-6 text-xl sm:text-3xl translate-y-6 animate-[transformBottomTop_1s_ease_forwards]">DevOps</h2>
+            <h2 class="text-white font-Gruppo mt-6 text-xl sm:text-3xl translate-y-6 animate-[transformBottomTop_1s_ease_forwards]">Développeur Full Stack</h2>
 
             <Separator class="block mx-auto mt-12 translate-y-6 animate-[transformBottomTop_1s_ease_forwards]"/>
         </div>
@@ -40,11 +40,11 @@
 
                     <div class="mx-0 sm:mx-10 lg:mx-40 xl:mx-0 mt-12 xl:mt-0">
                         <h1 class="font-ZenOldMincho text-4xl 2xl:text-5xl text-white text-center xl:text-left">Erwan Nicolas</h1>
-                        <h2 class="text-white font-Gruppo mt-3 text-xl 2xl:text-2xl text-center xl:text-left">DevOps</h2>
+                        <h2 class="text-white font-Gruppo mt-3 text-xl 2xl:text-2xl text-center xl:text-left">Développeur Full Stack</h2>
 
                         <p class="font-Roboto text-white text-justify text-xs md:text-sm mt-7">
                             Etudiant en alternance en BUT Informatique à l'Université Côte d'Azur, je me distingue par ma passion polyvalente pour le développement, les nouvelles technologies, l'entrepreneuriat et la gendarmerie.<br /><br />
-                            Je suis actuellement membre du prestigieux programme PEPITE, où je renforce mes compétences en entrepreneuriat au sein de la formation D2E. Mon expertise s'étend du développement informatique à l'élaboration de plans d'affaires, en passant par l'interaction avec les investisseurs et la compréhension approfondie des statuts juridiques. Parallèlement à mon engagement entrepreneurial, je nourris une passion singulière pour la gendarmerie. Je crois fermement que les valeurs d'intégrité, de service et de responsabilité propres à la gendarmerie peuvent enrichir l'écosystème entrepreneurial.
+                            Mon expertise couvre la conception et la réalisation d'interfaces UI/UX, leur développement avec des langages frontend, ainsi que la création de systèmes backend complexes. En plus de mes compétences techniques, je possède des connaissances en entrepreneuriat, incluant l'élaboration de business plans et modèles d'affaires, la gestion des relations avec les investisseurs, ainsi qu'une compréhension du droit des contrats et des entreprises. Parallèlement à mon parcours entrepreneurial et en développement, je nourris une véritable passion pour la gendarmerie. Je suis convaincu que les valeurs d'intégrité, de service et de responsabilité qui y sont associées peuvent non seulement renforcer la discipline et l'éthique au sein des entreprises, mais aussi inspirer un leadership solide.
                         </p>
 
                         <div class="md:flex md:justify-between md:items-center mt-8">
@@ -80,9 +80,9 @@
               </TitleSide>
 
               <div class="w-fit mx-auto relative">
-                <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-20 translate-y-10"/>
+                <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-8 2xl:translate-x-20 translate-y-10"/>
 
-                <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
+                <!-- <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Breaking Hardware</h3>
@@ -97,9 +97,9 @@
                       plus jeunes développeurs. Enfin, je réalise divers projets pour nos clients, en assurant leur satisfaction grâce à des solutions personnalisées.
                     </p>
                   </div>
-                </ExperienceElement>
+                </ExperienceElement> -->
 
-                <ExperienceElement number="2" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
+                <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">NicoDev</h3>
@@ -116,12 +116,12 @@
                   </div>
                 </ExperienceElement>
 
-                <ExperienceElement number="3" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10 mb-40 xl:mb-0">
+                <ExperienceElement number="2" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">INOCESS</h3>
                       <div class="flex justify-between items-center">
-                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">DevOps</h1>
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Développeur Full Stack</h1>
                         <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">oct. 2022 - Aujourd'hui</p>
                       </div>
                     </div>
@@ -141,13 +141,13 @@
 
               <div class="w-fit mx-auto relative">
 
-                <ExperienceElement number="4" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
+                <ExperienceElement number="3" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-24 xl:mt-0 mb-40 xl:mb-0">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">PEPITE PACA-EST</h3>
                       <div class="flex justify-between items-center">
                         <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Etudes entrepreneuriales</h1>
-                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">fev. 2024 - Aujourd'hui</p>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">fev. 2024 - août 2024</p>
                       </div>
                     </div>
                     <p class="text-justify font-Roboto text-sm lg:text-base">
@@ -159,7 +159,7 @@
                   </div>
                 </ExperienceElement>
 
-                <ExperienceElement number="5" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10 mb-40 xl:mb-0">
+                <ExperienceElement number="4" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Université Côte d'Azur</h3>
@@ -176,7 +176,7 @@
                   </div>
                 </ExperienceElement>
 
-                <ExperienceElement number="6" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
+                <ExperienceElement number="5" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Lycée Saint Exupery</h3>
@@ -192,7 +192,7 @@
                   </div>
                 </ExperienceElement>
 
-                <SatelliteDish width="175" height="175" color="white" class="-rotate-90 absolute right-24 hidden xl:block"/>
+                <SatelliteDish width="175" height="175" color="white" class="absolute left-16 2xl:left-24 hidden xl:block"/>
             </div>
         </div>
         </div>
@@ -225,8 +225,8 @@
               <LinearProgressBar firstColor="#9D68AB" endColor="#5571B5" progress="50" name="Git / GitHub" class="mt-16"/>
               <LinearProgressBar firstColor="#809DC9" endColor="#B32024" progress="70" name="SVN / Redmine" class="mt-16"/>
               <ProgressBar color="#2A6914" progress="70" name="VueJS / NuxtJS" class="mt-16" />
-              <ProgressBar color="#1A58CF" progress="50" name="TypeScript" class="mt-16" />
-              <ProgressBar color="#2B9DDD" progress="50" name="Docker" class="mt-16" />
+              <ProgressBar color="#1A58CF" progress="30" name="TypeScript" class="mt-16" />
+              <ProgressBar color="#2B9DDD" progress="30" name="Docker" class="mt-16" />
               <ProgressBar color="#A259FF" progress="80" name="Figma" class="mt-16" />
             </div>
 
