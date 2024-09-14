@@ -127,8 +127,7 @@
                     </div>
                     <p class="text-justify font-Roboto text-sm lg:text-base">
                       J'ai rejoint l'équipe d'INOCESS en alternance dans le but de contribuer à la création, la conception, le développement, la mise en production et la maintenance
-                      d'une solution web permettant la visualisation de données sous différentes formes de graphiques. J'ai commencé en tant que développeur full stack
-                      avant de petit à petit m'orienter vers du DevOps.
+                      d'une solution web permettant la visualisation de données sous différentes formes : graphiques, graphes, matrices, etc.
                     </p>
                   </div>
                 </ExperienceElement>
@@ -170,7 +169,7 @@
                     </div>
                     <p class="text-justify font-Roboto text-sm lg:text-base">
                       Après l'obtention de mon baccalauréat, j'ai rejoint le Bachelor Universitaire de Technologie (BUT) à l'IUT de Nice,
-                      sur le campus de Sophia Antipolis, dans le but d'approfondir mes compétences en informatique. Actuellement en deuxième année de BUT, cette
+                      sur le campus de Sophia Antipolis, dans le but d'approfondir mes compétences en informatique. Actuellement en troisième année de BUT, cette
                       formation m'a permis de faire des avancées significatives dans ce domaine aussi vaste que complexe.
                     </p>
                   </div>
