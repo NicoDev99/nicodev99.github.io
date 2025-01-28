@@ -88,7 +88,7 @@
                 <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-8 2xl:translate-x-20 translate-y-10"/>
 
                 <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
-                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Frolson</h3>
                       <div class="flex justify-between items-center">
@@ -106,7 +106,7 @@
                 </ExperienceElement>
 
                 <ExperienceElement number="2" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
-                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">INOCESS</h3>
                       <div class="flex justify-between items-center">
@@ -122,7 +122,7 @@
                 </ExperienceElement>
 
                 <ExperienceElement number="3" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-10">
-                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">NicoDev</h3>
                       <div class="flex justify-between items-center">
@@ -147,7 +147,7 @@
               <div class="w-fit mx-auto relative">
 
                 <ExperienceElement number="4" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-24 xl:mt-0 mb-40 xl:mb-0">
-                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Université Côte d'Azur</h3>
                       <div class="flex justify-between items-center">
@@ -164,7 +164,7 @@
                 </ExperienceElement>
 
                 <ExperienceElement number="5" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10 mb-40 xl:mb-0">
-                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">PEPITE PACA-EST</h3>
                       <div class="flex justify-between items-center">
