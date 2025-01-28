@@ -313,7 +313,7 @@
             </div>
 
             <div class="w-fit mx-auto">
-                <h2 class="font-VollkornSC text-[#767478] text-center mx-10 md:mx-0 text-sm md:text-xl">Vous avez une question ou bien une remarque ? Alors ...</h2>
+                <h2 class="font-VollkornSC text-[#767478] text-center mx-10 md:mx-0 text-sm md:text-xl">Vous avez une question ou bien une remarque ?</h2>
                 <h1 class="font-Trykker text-white font-light text-center text-xl md:text-5xl uppercase mt-5">Contactez-moi</h1>
                 <Separator class="mx-auto mt-10" data-aos="fade-up"/>
             </div>
@@ -331,28 +331,36 @@
                 </div>
 
                 <div class="w-full relative">
-                    <input type="email" class="bg-[#282828] px-5 py-3 outline outline-0 text-white font-Roboto block w-full relative z-0" :class="this.error['email'] ? 'border border-solid border-red-500' : ''" id="email" v-model="this.email" @focus="this.error['email'] = null, this.success = '', this.error['main'] = null">
-                    <label for="email" class="font-Roboto text-white absolute transition-all ease z-10" :class="this.email == '' ? 'top-3 left-5' : '-top-7 left-0 text-sm'">Email</label>
+                    <input type="email" class="bg-[#282828] px-5 py-3 outline outline-0 text-white font-Roboto block w-full relative z-0 rounded" id="email" v-model="this.email"
+                        :class="!this.error['email'] ?? 'border border-solid border-red-500'" 
+                        @focus="this.error['email'] = null, this.success = '', this.error['main'] = null">
+                    <label for="email" class="font-Roboto text-white absolute transition-all ease z-10" :class="this.email == '' ? 'top-3 left-5' : '-top-7 left-0 text-sm'">Votre email</label>
                     <p class="text-red-500 absolute -bottom-6 right-0">{{ this.error["email"] }}</p>
                 </div>
 
                 <div class="w-full relative mt-12">
-                    <input type="text" class="bg-[#282828] px-5 py-3 outline outline-0 text-white font-Roboto block w-full relative z-0" :class="this.error['subject'] ? 'border border-solid border-red-500' : ''" id="subject" v-model="this.subject" @focus="this.error['subject'] = null, this.success = '', this.error['main'] = null">
+                    <input type="text" class="bg-[#282828] px-5 py-3 outline outline-0 text-white font-Roboto block w-full relative z-0 rounded" :class="this.error['subject'] ? 'border border-solid border-red-500' : ''" id="subject" v-model="this.subject" @focus="this.error['subject'] = null, this.success = '', this.error['main'] = null">
                     <label for="subject" class="font-Roboto text-white absolute transition-all ease z-10" :class="this.subject == '' ? 'top-3 left-5' : '-top-7 left-0 text-sm'">Sujet</label>
                     <p class="text-red-500 absolute -bottom-6 right-0">{{ this.error["subject"] }}</p>
                 </div>
 
                 <div class="w-full relative mt-12">
-                    <textarea class="bg-[#282828] px-5 py-3 outline outline-0 text-white font-Roboto block w-full mt-10 min-h-72 z-0" :class="this.error['message'] ? 'border border-solid border-red-500' : ''" id="message" v-model="this.message" @focus="this.error['message'] = null, this.success = '', this.error['main'] = null"></textarea>
+                    <textarea class="bg-[#282828] px-5 py-3 outline outline-0 text-white font-Roboto block w-full mt-10 min-h-72 z-0 rounded" id="message" v-model="this.message"
+                        :class="!this.error['message'] ?? 'border border-solid border-red-500'" 
+                        @focus="this.error['message'] = null, this.success = '', this.error['main'] = null"></textarea>
                     <label for="message" class="font-Roboto text-white absolute transition-all ease z-10" :class="this.message == '' ? 'top-3 left-5' : '-top-7 left-0 text-sm'">Message</label>
                     <p class="text-red-500 absolute -bottom-6 right-0">{{ this.error["message"] }}</p>
                 </div>
 
-                <label for="readCGU" class="text-white font-Roboto font-light mt-8 flex gap-x-3 items-center text-xs md:text-base relative">
-                    <input type="checkbox" class="hidden" id="readCGU" v-model="this.readCGU" @click="this.error['readCGU'] ? this.error['readCGU'] = false : '', this.success = '', this.error['main'] = null">
-                    <div class="border border-solid border-white rounded w-4 md:w-5 h-4 md:h-5 cursor-pointer" :class="this.error['readCGU'] ? 'border border-solid border-red-500' : ''"></div>
-                    <p>J'ai lu et j'accepte les <RouterLink to="/CGU" class="underline">Conditions Générales d'Utilisation</RouterLink></p>
+                <label for="readCGU" class="text-white font-Roboto font-light mt-8 flex gap-x-3 items-center text-xs md:text-base relative cursor-pointer">
+                    <input type="checkbox" class="hidden" id="readCGU" v-model="this.readCGU">
+                    <div class="rounded w-4 md:w-5 h-4 md:h-5 cursor-pointer" 
+                        :class="this.error['readCGU'] 
+                                    ? 'border border-solid border-red-500' 
+                                    : 'border border-solid border-white'"></div>
+                    J'ai lu et j'accepte les<RouterLink to="/CGU" class="underline">Conditions Générales d'Utilisation</RouterLink>
                 </label>
+                <p v-if="this.error['readCGU']" class="text-red-500">{{ this.error['readCGU'] }}</p>
 
                 <button class="mt-16 text-white text-lg cursor-pointer flex gap-x-4 items-center border border-solid border-white px-5 py-2 rounded hover:bg-white/10 duration-500" @click="this.sendMail()">
                     {{ this.sendButton }}
@@ -467,6 +475,17 @@
                 this.isPhoneNavDisplay = phoneDisplay
             },
 
+
+            /**
+             * Reset the input error
+             * @param {string} errorName    Error name (defined in the sendMail function)
+             */
+            resetInputError : function(errorName) {
+                if(this.error[errorName]) {
+                    this.error[errorName] = false
+                }
+            },
+
             /**
              * Send a mail from the user to me
              * First the fonction will check if the informations filled are correct and send me 
@@ -499,12 +518,12 @@
                 }
 
 
-                if(this.readCGU == false) {
+                if(!this.readCGU) {
                     this.error["readCGU"] = "Vous devez accepter les conditions générales d'utilisation"
                 }
 
 
-                if(!this.error["email"] && !this.error["subject"] && !this.error["message"] && !this.error["redCGU"]) {
+                if(!this.error["email"] && !this.error["subject"] && !this.error["message"] && !this.error["readCGU"]) {
 
                     this.sendText(true)
 
@@ -516,7 +535,7 @@
 
                     emailjs.send('service_lg8fbh9', 'template_s69qkkc', templateParams).then(
                         (response) => {
-                            this.success = "Le formulaire a été envoyé avec succès"
+                            this.success = "Le formulaire a correctement été envoyé"
                             this.email = ""
                             this.subject = ""
                             this.message = ""
@@ -555,6 +574,14 @@
                 } else {
                     clearInterval(this.sendTextInterval)
                     this.sendButton = "Envoyer"
+                }
+            }
+        },
+
+        watch: {
+            readCGU(newValue, oldValue) {
+                if(newValue && this.error["readCGU"]) {
+                    this.error["readCGU"] = null
                 }
             }
         }
