@@ -43,15 +43,20 @@
                         <h2 class="text-white font-Gruppo mt-3 text-xl 2xl:text-2xl text-center xl:text-left">Développeur Full Stack</h2>
 
                         <p class="font-Roboto text-white text-justify text-xs md:text-sm mt-7">
-                            Etudiant en alternance en BUT Informatique à l'Université Côte d'Azur, je me distingue par ma passion polyvalente pour le développement, les nouvelles technologies, l'entrepreneuriat et la gendarmerie.<br /><br />
-                            Mon expertise couvre la conception et la réalisation d'interfaces UI/UX, leur développement avec des langages frontend, ainsi que la création de systèmes backend complexes. En plus de mes compétences techniques, je possède des connaissances en entrepreneuriat, incluant l'élaboration de business plans et modèles d'affaires, la gestion des relations avec les investisseurs, ainsi qu'une compréhension du droit des contrats et des entreprises. Parallèlement à mon parcours entrepreneurial et en développement, je nourris une véritable passion pour la gendarmerie. Je suis convaincu que les valeurs d'intégrité, de service et de responsabilité qui y sont associées peuvent non seulement renforcer la discipline et l'éthique au sein des entreprises, mais aussi inspirer un leadership solide.
+                            Alternant en BUT Informatique à l'Université Côte d'Azur, je suis passionné par le développement, les nouvelles technologies, 
+                            l'entrepreneuriat et la gendarmerie. Depuis mon enfance, l'informatique et la programmation occupent une place centrale dans ma vie, 
+                            me permettant de concevoir les technologies du futur. Toujours curieux et avide d'apprentissage, je cherche continuellement à développer 
+                            mes compétences et à relever de nouveaux défis. Récemment, mon intérêt pour l'entrepreneuriat m'a conduit à rejoindre le réseau PEPITE, 
+                            où j'ai acquis des connaissances en gestion d'entreprise, élaboration de business plans, et communication avec des investisseurs.<br /><br />
+
+                            En parallèle, je nourris une profonde admiration pour la gendarmerie, dont les valeurs d'intégrité, de service et de responsabilité m'inspirent. 
+                            Convaincu que ces principes peuvent s'allier à l'informatique, je suis actuellement candidat à la réserve opérationnelle, avec l'ambition de contribuer 
+                            activement à la protection de mon pays et de ses citoyens. Alliant polyvalence, vision innovante et engagement, je m'investis pleinement dans mes études
+                            et mes projets, avec l'objectif de créer un impact positif dans chacun de mes domaines d'intérêt.
                         </p>
 
                         <div class="md:flex md:justify-between md:items-center mt-8">
                             <div class="flex gap-x-6 justify-center md:justify-normal">
-                                <!-- <a href="/" target="_blank" class="hover:-translate-y-1 duration-300">
-                                    <InstagramIcon color="white" />
-                                </a> -->
 
                                 <a href="https://www.linkedin.com/in/erwan-nicolas-79729029a/" target="_blank" class="hover:-translate-y-1 duration-300">
                                     <LinkedinIcon color="white" />
@@ -82,36 +87,20 @@
               <div class="w-fit mx-auto relative">
                 <Satellite width="200" height="200" color="white" class="-rotate-90 hidden xl:block translate-x-8 2xl:translate-x-20 translate-y-10"/>
 
-                <!-- <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
-                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
-                    <div class="mb-3">
-                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Breaking Hardware</h3>
-                      <div class="flex justify-between items-center">
-                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Teach Lead</h1>
-                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">mai 2024 - Aujourd’hui</p>
-                      </div>
-                    </div>
-                    <p class="text-justify font-Roboto text-sm lg:text-base">
-                      J'ai rejoint Breaking Hardware en tant que Tech Lead spécialisé dans le développement web. Mes missions incluent la validation
-                      du code de mon équipe et le développement de la structure web de l'entreprise. Je partage également mes connaissances en formant les
-                      plus jeunes développeurs. Enfin, je réalise divers projets pour nos clients, en assurant leur satisfaction grâce à des solutions personnalisées.
-                    </p>
-                  </div>
-                </ExperienceElement> -->
-
                 <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-24 xl:mt-0">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
-                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">NicoDev</h3>
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Frolson</h3>
                       <div class="flex justify-between items-center">
-                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Fondateur CEO</h1>
-                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">juin 2023 - juin 2024</p>
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Développeur IA</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">dec. 2024 - Aujourd'hui</p>
                       </div>
                     </div>
                     <p class="text-justify font-Roboto text-sm lg:text-base">
-                      Après avoir passé plusieurs années à travailler en tant qu'indépendant, j'ai pris la décision de lancer ma propre entreprise.
-                      Mon objectif était de donner vie à mes projets tout en collaborant avec d'autres entreprises, en leur proposant mes services pour
-                      la conception et le développement de solutions informatiques sur mesure.
+                        Chez Frolson, je conçois et mets en place des automatisations 
+                        avancées avec des outils comme Make et n8n, tout en les intégrant aux systèmes existants et à des plateformes comme Coda. 
+                        Je développe également des solutions d'IA, en fine-tunant des modèles comme Ollama et Deepseek, et en les intégrant dans un 
+                        système RAG pour l'analyse de documents complexes dans le domaine de l'assurance.
                     </p>
                   </div>
                 </ExperienceElement>
@@ -131,6 +120,23 @@
                     </p>
                   </div>
                 </ExperienceElement>
+
+                <ExperienceElement number="1" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mb-40 xl:mb-0 mt-10">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">NicoDev</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">Fondateur CEO</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">juin 2023 - juin 2024</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      Après avoir passé plusieurs années à travailler en tant qu'indépendant, j'ai pris la décision de lancer ma propre entreprise.
+                      Mon objectif était de donner vie à mes projets tout en collaborant avec d'autres entreprises, en leur proposant mes services pour
+                      la conception et le développement de solutions informatiques sur mesure.
+                    </p>
+                  </div>
+                </ExperienceElement>
               </div>
 
               <!-- Formations -->
@@ -140,7 +146,24 @@
 
               <div class="w-fit mx-auto relative">
 
-                <ExperienceElement number="3" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-24 xl:mt-0 mb-40 xl:mb-0">
+                <ExperienceElement number="4" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-24 xl:mt-0 mb-40 xl:mb-0">
+                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
+                    <div class="mb-3">
+                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Université Côte d'Azur</h3>
+                      <div class="flex justify-between items-center">
+                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">BUT Informatique</h1>
+                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">sept. 2022 - Aujourd'hui</p>
+                      </div>
+                    </div>
+                    <p class="text-justify font-Roboto text-sm lg:text-base">
+                      Après l'obtention de mon baccalauréat, j'ai rejoint le Bachelor Universitaire de Technologie (BUT) à l'IUT de Nice,
+                      sur le campus de Sophia Antipolis, dans le but d'approfondir mes compétences en informatique. Actuellement en troisième année de BUT, cette
+                      formation m'a permis de faire des avancées significatives dans ce domaine aussi vaste que complexe.
+                    </p>
+                  </div>
+                </ExperienceElement>
+
+                <ExperienceElement number="3" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10 mb-40 xl:mb-0">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">PEPITE PACA-EST</h3>
@@ -158,24 +181,7 @@
                   </div>
                 </ExperienceElement>
 
-                <ExperienceElement number="4" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10 mb-40 xl:mb-0">
-                  <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-right">
-                    <div class="mb-3">
-                      <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Université Côte d'Azur</h3>
-                      <div class="flex justify-between items-center">
-                        <h1 class="font-ZenDots text-sm lg:text-lg 2xl:text-xl">BUT Informatique</h1>
-                        <p class="text-[#BDBDBD] text-xs 2xl:text-sm font-YujiSyuku text-right">sept. 2022 - Aujourd'hui</p>
-                      </div>
-                    </div>
-                    <p class="text-justify font-Roboto text-sm lg:text-base">
-                      Après l'obtention de mon baccalauréat, j'ai rejoint le Bachelor Universitaire de Technologie (BUT) à l'IUT de Nice,
-                      sur le campus de Sophia Antipolis, dans le but d'approfondir mes compétences en informatique. Actuellement en troisième année de BUT, cette
-                      formation m'a permis de faire des avancées significatives dans ce domaine aussi vaste que complexe.
-                    </p>
-                  </div>
-                </ExperienceElement>
-
-                <ExperienceElement number="5" orientation="left" class="translate-x-0 xl:translate-x-48 2xl:translate-x-64 mt-10">
+                <ExperienceElement number="5" orientation="right" class="translate-x-0 xl:-translate-x-52 2xl:-translate-x-64 mt-10">
                   <div class="text-white w-full max-w-lg 2xl:max-w-xl" data-aos="fade-left">
                     <div class="mb-3">
                       <h3 class="font-Yaldevi text-[#BDBDBD] text-sm mb-2">Lycée Saint Exupery</h3>
@@ -191,7 +197,7 @@
                   </div>
                 </ExperienceElement>
 
-                <SatelliteDish width="175" height="175" color="white" class="absolute left-16 2xl:left-24 hidden xl:block"/>
+                <SatelliteDish width="175" height="175" color="white" class="absolute left-64 hidden xl:block"/>
             </div>
         </div>
         </div>
@@ -227,6 +233,8 @@
               <ProgressBar color="#1A58CF" progress="30" name="TypeScript" class="mt-16" />
               <ProgressBar color="#2B9DDD" progress="30" name="Docker" class="mt-16" />
               <ProgressBar color="#A259FF" progress="80" name="Figma" class="mt-16" />
+              <ProgressBar color="#95a69f" progress="20" name="IA" class="mt-16" />
+              <LinearProgressBar firstColor="#0ebeff" endColor="#ff42b3" progress="20" name="Automatisation" class="mt-16"/>
             </div>
 
             <div class="flex items-center mt-24 ml-0 md:ml-8">
